@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Weather</title>
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+<script language="Javascript" type="text/javascript">
+
+
+function main(){
+
+	/*
+	var getIP = 'http://ip-api.com/json/';
+		$.getJSON(getIP, function(location) {
+		console.log(location);
+    	alert(location.city);
+	}, 'jsonp');
+	*/
+
+
+
+
+	//split url and concatenate above location.city
+	$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=b247d4b43cbaa161d2cb8e5047cf3a15", function(json) {
+  		$(".message").html(JSON.stringify(json.main.temp));
+
+  		//var test = '';
+  		//test = JSON.stringify(json.main.temp);
+  		//$(".message").html(test);
+  		//alert(typeof test);
+		
+		$('<li>').text(JSON.stringify(json.main)).appendTo('.posts');
+		
+		var mainObj = json.main;
+		$('<li>').text(mainObj.temp).appendTo('.posts');
+		$('<li>').text('').appendTo('.posts');
+
+		for(var x in mainObj){
+			$('<li>').text([x] + ": " + mainObj[x]).appendTo('.posts');
+		};
+	}, 'jsonp');
+
+
+
+};
+
+
+$(document).ready(main);
+
+
+
+</script>
+
+<div>
+	<p class="message"></p>
+	<ul class="posts"></ul>
+</div>
+
+</body>
+</html>

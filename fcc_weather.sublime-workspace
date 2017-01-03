@@ -1,0 +1,280 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"tabl",
+				"table-bordered"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"tab",
+				"table\tTag"
+			],
+			[
+				"c",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "weather_test.htm",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jmarsh/Dropbox/github/fcc_weather_api"
+	],
+	"file_history":
+	[
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/css/site.css",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Shortcuts.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Index.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Practice_Carousel.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/About (3).html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/main_1.html",
+		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/Tribute - Sgt Johnson/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/Tribute - Sgt Johnson/Practice_Carousel.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_Carousel.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/js/site.js",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_w14_03.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Shortcuts.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/css/site.css",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_DO_NOT_EDIT.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index_before_M5.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/js/bootstrap.min.js",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/images/lebowski-1.jpg",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact2.html",
+		"/C/Users/schrobot/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About2.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50",
+			"primary",
+			"3",
+			"href",
+			"Buscemi",
+			"Two",
+			"list",
+			"class",
+			"Character",
+			"button",
+			"item",
+			"                <li class=\"list-group-item\">Two</li>\n",
+			"item",
+			"class",
+			"                        <li class=\"nav\"><a href=\"about.html\">About</a></li>\n",
+			"li",
+			"nav",
+			"previous",
+			"open tab",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "weather_test.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fcc_weather.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
