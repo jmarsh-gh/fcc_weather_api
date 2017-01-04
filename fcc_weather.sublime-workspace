@@ -9,7 +9,7 @@
 			],
 			[
 				"di",
-				"div\tTag"
+				"div	Tag"
 			],
 			[
 				"tabl",
@@ -17,11 +17,11 @@
 			],
 			[
 				"cl",
-				"class\tAttr"
+				"class	Attr"
 			],
 			[
 				"tab",
-				"table\tTag"
+				"table	Tag"
 			],
 			[
 				"c",
@@ -35,7 +35,23 @@
 			"file": "weather_test.htm",
 			"settings":
 			{
-				"buffer_size": 1336,
+				"buffer_size": 1479,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "outline.md",
+			"settings":
+			{
+				"buffer_size": 281,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Shortcuts.md",
+			"settings":
+			{
+				"buffer_size": 1184,
 				"line_ending": "Windows"
 			}
 		}
@@ -72,7 +88,7 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jmarsh/Dropbox/github/fcc_weather_api"
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api"
 	],
 	"file_history":
 	[
@@ -170,15 +186,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1336,
+						"buffer_size": 1479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								592,
-								592
+								221,
+								221
 							]
 						],
 						"settings":
@@ -186,10 +202,66 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "outline.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Shortcuts.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -243,6 +315,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"outline.md"
+			]
 		],
 		"width": 0.0
 	},
