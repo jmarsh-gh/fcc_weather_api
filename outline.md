@@ -8,4 +8,5 @@ Script
 - Concatenate URL for Weather API call using City name - done
 - Button for centigrade or Fahrenheit: change API URL or write a script?
 - Show icon based on current weather
+- Wind Direction from degrees? 
 
