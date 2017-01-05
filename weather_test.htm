@@ -7,6 +7,17 @@
 </head>
 <body>
 
+<div>
+	<h1>Weather App</h1>
+	<p class="location"></p>
+	<p class="message"></p>
+	<img>
+	<br>
+	<br>
+	<button id="cent">&deg;C</button>
+	<button id="fahren">&deg;F</button>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
 <script language="Javascript" type="text/javascript">
 
@@ -17,26 +28,32 @@ function main(){
 	$.getJSON("http://ip-api.com/json", function(json) {
 	console.log(json);
 	var userCity = json.city;
-	$(".location").text("Local Weather for" + " " + userCity + ", " + json.countryCode);
+	$(".location").text(userCity + ", " + json.countryCode);
 
 	//split url and concatenate above json.city
 	var url = "http://api.openweathermap.org/data/2.5/weather?";
 	var city = "q=" + userCity;
 	var queryStrings = "&units=metric&appid=b247d4b43cbaa161d2cb8e5047cf3a15"
 		$.getJSON(url+city+queryStrings, function(json) {
-  			$(".message").html(Math.round(json.main.temp) + " degrees Centigrade" + "</br>" + json.weather[0].description);
+  			$(".message").html(Math.round(json.main.temp) + "&deg;C" + "</br>" + json.weather[0].description);
   			console.log(json.weather[0]);
 
 			//Cent to Fahrenheit buttons
 			var centButton = document.querySelector("#cent");
 			var fahrenButton = document.querySelector("#fahren");
-			var converted = Math.round(json.main.temp) * 9 / 5 + 32;
+			var converted = json.main.temp * 9 / 5 + 32;
 			fahrenButton.addEventListener("click", function(){
-				$(".message").html(converted + " degrees Fahrenheit" + "</br>" + json.weather[0].description);
+				$(".message").html(Math.round(converted) + "&deg;F" + "</br>" + json.weather[0].description);
 			});
 			centButton.addEventListener("click", function(){
-				$(".message").html(Math.round(json.main.temp) + " degrees Centigrade" + "</br>" + json.weather[0].description);
+				$(".message").html(Math.round(json.main.temp) + "&deg;C" + "</br>" + json.weather[0].description);
 			});
+
+			//fetch icon
+			var weatherIcon = json.weather[0].icon;
+			var iconURL = "http://openweathermap.org/img/w/"
+			var img = document.querySelector("img");
+			img.setAttribute("src", iconURL + weatherIcon + ".png");
 
 		},'jsonp');
 	}, 'jsonp');
@@ -63,14 +80,6 @@ $(document).ready(main);
 		// };
 
 </script>
-
-<div>
-	<p class="location"></p>
-	<p class="message"></p>
-	<ul class="posts"></ul>
-	<button id="cent">C</button>
-	<button id="fahren">F</button>
-</div>
 
 </body>
 </html>
