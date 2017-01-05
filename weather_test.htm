@@ -26,8 +26,19 @@ function main(){
 		$.getJSON(url+city+queryStrings, function(json) {
   			$(".message").html(Math.round(json.main.temp) + " degrees Centigrade" + "</br>" + json.weather[0].description);
   			console.log(json.weather[0]);
-		},'jsonp');
 
+			//Cent to Fahrenheit buttons
+			var centButton = document.querySelector("#cent");
+			var fahrenButton = document.querySelector("#fahren");
+			var converted = Math.round(json.main.temp) * 9 / 5 + 32;
+			fahrenButton.addEventListener("click", function(){
+				$(".message").html(converted + " degrees Fahrenheit" + "</br>" + json.weather[0].description);
+			});
+			centButton.addEventListener("click", function(){
+				$(".message").html(Math.round(json.main.temp) + " degrees Centigrade" + "</br>" + json.weather[0].description);
+			});
+
+		},'jsonp');
 	}, 'jsonp');
 	
 	
@@ -55,10 +66,10 @@ $(document).ready(main);
 
 <div>
 	<p class="location"></p>
-	<button id="cent">C</button>
-	<button id="fahren">F</button>
 	<p class="message"></p>
 	<ul class="posts"></ul>
+	<button id="cent">C</button>
+	<button id="fahren">F</button>
 </div>
 
 </body>
