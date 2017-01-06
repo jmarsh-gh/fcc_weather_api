@@ -24,11 +24,12 @@
 
 function main(){
 
-	//Get city from IP - NOTE adblock blocks this from working - find alt
-	$.getJSON("http://ip-api.com/json", function(json) {
+	
+	//Get City & Country code from IP (updated - works with adblock)
+	$.getJSON("http://ipinfo.io/json", function(json) {	
 	console.log(json);
 	var userCity = json.city;
-	$(".location").text(userCity + ", " + json.countryCode);
+	$(".location").text(userCity + ", " + json.country);
 
 	//split url and concatenate above json.city
 	var url = "http://api.openweathermap.org/data/2.5/weather?";
