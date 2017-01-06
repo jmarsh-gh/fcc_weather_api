@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"weather",
+				"weatherIcon"
+			],
+			[
+				"icon",
+				"iconURL"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -35,7 +43,7 @@
 			"file": "weather_test.htm",
 			"settings":
 			{
-				"buffer_size": 1782,
+				"buffer_size": 2557,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +51,7 @@
 			"file": "outline.md",
 			"settings":
 			{
-				"buffer_size": 340,
+				"buffer_size": 424,
 				"line_ending": "Windows"
 			}
 		},
@@ -186,15 +194,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1782,
+						"buffer_size": 2557,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1088,
-								1088
+								1837,
+								1837
 							]
 						],
 						"settings":
@@ -202,7 +210,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -214,15 +222,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 340,
+						"buffer_size": 424,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								338,
-								338
+								343,
+								343
 							]
 						],
 						"settings":
