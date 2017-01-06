@@ -11,6 +11,7 @@
 	<h1>Weather App</h1>
 	<p class="location"></p>
 	<p class="message"></p>
+	<p class="wind"></p>
 	<img>
 	<br>
 	<br>
@@ -55,6 +56,23 @@ function main(){
 			var iconURL = "http://openweathermap.org/img/w/"
 			var img = document.querySelector("img");
 			img.setAttribute("src", iconURL + weatherIcon + ".png");
+
+			//wind direction
+			function toTextualDescription(degree) {
+  				var sectors = ['Northerly','North Easterly','Easterly','South Easterly','Southerly','South Westerly','Westerly','North Westerly'];
+  
+  				degree += 22.5;
+
+  				if (degree < 0) 
+    				degree = 360 - Math.abs(degree) % 360;
+  				else 
+    				degree = degree % 360;
+  
+  				var which = parseInt(degree / 45);
+  				return sectors[which];
+			};
+			$(".wind").html(toTextualDescription(json.wind.deg));
+
 
 		},'jsonp');
 	}, 'jsonp');

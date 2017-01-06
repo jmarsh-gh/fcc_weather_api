@@ -9,8 +9,8 @@ Script
 - Button for centigrade or Fahrenheit: change API URL or write a script? - done
 - Show icon based on current weather (weather api own icon) - done
 - Create Codepen - done 
-- Find alternative to IP-api
-- Wind Direction from degrees? 
+- Find alternative to IP-api - done
+- Wind Direction from degrees? - done
 - Test with VPN/Work
 
 Styling
