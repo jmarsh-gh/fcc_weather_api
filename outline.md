@@ -11,12 +11,14 @@ Script
 - Create Codepen - done 
 - Find alternative to IP-api - done
 - Wind Direction from degrees? - done
+- Add bootstrap theme - done
+- Remove residual outline from buttons - done
 - Wind direction - tidy
 - Test with VPN/Work
 
 Styling
-- centred
+- centred - done
 - responsive
-- Font
-- background colour
+- Font - done
+- background colour - done
 - arrows for wind

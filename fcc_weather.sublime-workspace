@@ -55,7 +55,7 @@
 			"file": "outline.md",
 			"settings":
 			{
-				"buffer_size": 474,
+				"buffer_size": 565,
 				"line_ending": "Windows"
 			}
 		},
@@ -189,7 +189,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -205,8 +205,8 @@
 						"selection":
 						[
 							[
-								1740,
-								1740
+								1912,
+								1912
 							]
 						],
 						"settings":
@@ -217,7 +217,7 @@
 						"translation.y": 527.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -226,15 +226,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 474,
+						"buffer_size": 565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								454,
-								454
+								487,
+								487
 							]
 						],
 						"settings":
@@ -245,7 +245,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{

@@ -4,19 +4,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/dzsbo8htc/raw/upload/v1458762429/testfolder/slate-bootstrap.min_iadgbc.css">
+    <style type="text/css">
+    div {
+    	text-align: center;
+    }
+    </style>
 </head>
 <body>
 
-<div>
-	<h1>Weather App</h1>
+<div class="container">
+	<h1 class="center">Weather App</h1>
 	<p class="location"></p>
 	<p class="message"></p>
 	<p class="wind"></p>
 	<img>
 	<br>
 	<br>
-	<button id="cent">&deg;C</button>
-	<button id="fahren">&deg;F</button>
+	<button class="btn btn-primary" id="cent" onclick="this.blur();">&deg;C</button>
+	<button class="btn btn-primary" id="fahren" onclick="this.blur();">&deg;F</button>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
