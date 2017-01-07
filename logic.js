@@ -46,8 +46,29 @@ function main(){
 			};
 			$(".wind").html("Wind: " + windDirection(json.wind.deg) + ", " + json.wind.speed + "m/s");
 
-		},'jsonp');
-	}, 'jsonp');
+			//umbrella
+			//get forecast
+			//dt = unix time. First dt is the next 3 hour increment in location
+			var urlForecast = "http://api.openweathermap.org/data/2.5/forecast?"
+			$.getJSON(urlForecast+city+queryStrings, function(json) {
+				//Precip (mm) in next 3 hours
+				console.log(json.list[0].rain["3h"]); //bracket notation as obj key has integer
+				//Precip(mm) 3-6 hours
+				console.log(json.list[1].rain["3h"]);
+				//wind speed in 3hrs
+				console.log(json.list[0].wind.speed)
+				//wind speed in 6hrs
+				console.log(json.list[1].wind.speed)
+
+				//if rain = -1 = No, it's probably not going to rain. Maybe.
+				//if rain != -1 && wind > 20mph = No - too windy, put up your hood!
+				//if rain != -1 && wind 15 - 20 mph = Yes, but only if you have a strong umbrella!
+				//if rain != -1 && wind < 15mph Yes, it's going to rain, but it's not too windy
+			
+
+			},'jsonp'); // Forecast Weather
+		},'jsonp'); // Current Weather
+	}, 'jsonp'); //IP
 };
 
 $(document).ready(main);
