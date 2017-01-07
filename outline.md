@@ -13,8 +13,9 @@ Script
 - Wind Direction from degrees? - done
 - Add bootstrap theme - done
 - Remove residual outline from buttons - done
-- Move script and CSS to separate pages
-- Wind direction - tidy
+- Move script and CSS to separate pages - done
+- Umberella: Forecast next 4 hours wind speed and precipitation
+- Wind direction + speed - done
 - Test with VPN/Work - done
 
 Styling
