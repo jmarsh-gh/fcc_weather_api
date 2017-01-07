@@ -11,7 +11,12 @@ Script
 - Create Codepen - done 
 - Find alternative to IP-api - done
 - Wind Direction from degrees? - done
+- Wind direction - tidy
 - Test with VPN/Work
 
 Styling
-
+- centred
+- responsive
+- Font
+- background colour
+- arrows for wind
