@@ -13,12 +13,14 @@ Script
 - Wind Direction from degrees? - done
 - Add bootstrap theme - done
 - Remove residual outline from buttons - done
+- Move script and CSS to separate pages
 - Wind direction - tidy
-- Test with VPN/Work
+- Test with VPN/Work - done
 
 Styling
 - centred - done
-- responsive
+- responsive -done
 - Font - done
 - background colour - done
 - arrows for wind
+- Better icons
