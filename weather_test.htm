@@ -4,11 +4,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/dzsbo8htc/raw/upload/v1458762429/testfolder/slate-bootstrap.min_iadgbc.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<script src="css/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/logic.js"></script>
+    
+
 </head>
 <body>
-
 <div class="container">
 	<h1 class="center">Local Weather App</h1>
 	<h2 class="location"></h2>
@@ -16,6 +23,7 @@
 	<h4 class="message"></h4>
 	<br>
 	<h4 class="wind"></h4>
+	<h4><span class="glyphicon glyphicon-play-circle"></span></h4>
 	<br>
 	<img>
 	<br>
@@ -24,7 +32,5 @@
 	<button class="btn btn-primary" id="fahren" onclick="this.blur();">&deg;F</button>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
-<script type="text/javascript" src="logic.js"></script>
 </body>
 </html>

@@ -23,5 +23,5 @@ Styling
 - responsive -done
 - Font - done
 - background colour - done
-- arrows for wind
+- arrows for wind - jquery UI to animate?
 - Better icons
