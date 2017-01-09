@@ -27,7 +27,7 @@ function main(){
 			//fetch icon
 			var weatherIcon = json.weather[0].icon;
 			var iconURL = "http://openweathermap.org/img/w/"
-			var img = document.querySelector("img");
+			var img = document.querySelector("#imgID");
 			img.setAttribute("src", iconURL + weatherIcon + ".png");
 
 			//wind direction

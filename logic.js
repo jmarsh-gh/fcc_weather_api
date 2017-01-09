@@ -25,10 +25,10 @@ function main(){
 			});
 
 			//fetch icon
-			var weatherIcon = json.weather[0].icon;
-			var iconURL = "http://openweathermap.org/img/w/"
-			var img = document.querySelector("img");
-			img.setAttribute("src", iconURL + weatherIcon + ".png");
+			// var weatherIcon = json.weather[0].icon;
+			// var iconURL = "http://openweathermap.org/img/w/"
+			// var img = document.querySelector("#testID");
+			// img.setAttribute("src", iconURL + weatherIcon + ".png");
 
 			//wind direction
 			function windDirection(degree) {
