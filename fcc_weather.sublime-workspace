@@ -47,20 +47,20 @@
 			"file": "weather_test.htm",
 			"settings":
 			{
-				"buffer_size": 1135,
+				"buffer_size": 1121,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "logic.js",
+			"file": "js/logic.js",
 			"settings":
 			{
-				"buffer_size": 3411,
+				"buffer_size": 3414,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style.css",
+			"file": "css/style.css",
 			"settings":
 			{
 				"buffer_size": 74,
@@ -90,7 +90,7 @@
 			"file": "/C/Users/schrobot/Dropbox/github/100DaysOfCode/log.md",
 			"settings":
 			{
-				"buffer_size": 2649,
+				"buffer_size": 3118,
 				"line_ending": "Windows"
 			}
 		}
@@ -131,6 +131,12 @@
 	],
 	"file_history":
 	[
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/logic.js",
+		"/C/Users/schrobot/Dropbox/github/fcc_weather_api/style.css",
+		"/F/Media/Downloads/icomoon_8_icons/demo.html",
+		"/F/Media/Downloads/icomoon_8_icons/style.css",
+		"/F/Media/Downloads/icomoon_8_icons/demo-files/demo.css",
+		"/F/Media/Downloads/IcoMoon-Free-master/IcoMoon-Free-master/README.md",
 		"/C/Users/schrobot/Dropbox/github/fcc_tribute_sgt_johnson/Index.html",
 		"/C/Users/schrobot/Dropbox/github/100-days-of-code/log.md",
 		"/home/jmarsh/Dropbox/github/fcc_tribute_sgt_johnson/css/site.css",
@@ -218,7 +224,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -227,15 +233,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1135,
+						"buffer_size": 1121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								231,
-								231
+								728,
+								728
 							]
 						],
 						"settings":
@@ -246,32 +252,33 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "logic.js",
+					"file": "js/logic.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3411,
+						"buffer_size": 3414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								640,
-								640
+								1310,
+								1310
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -279,7 +286,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "style.css",
+					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
@@ -290,8 +297,8 @@
 						"selection":
 						[
 							[
-								74,
-								74
+								0,
+								0
 							]
 						],
 						"settings":
@@ -302,7 +309,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -330,7 +337,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -358,7 +365,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -367,15 +374,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2649,
+						"buffer_size": 3118,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2506,
-								2506
+								3040,
+								3040
 							]
 						],
 						"settings":
@@ -383,10 +390,10 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 558.0,
+						"translation.y": 846.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

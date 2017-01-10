@@ -31,20 +31,20 @@ function main(){
 			img.setAttribute("src", iconURL + weatherIcon + ".png");
 
 			//wind direction
-			function windDirection(degree) {
+			function windDirection(degrees) {
   				var compassPoints = ['Northerly','North Easterly','Easterly','South Easterly','Southerly','South Westerly','Westerly','North Westerly'];
   
-  				degree += 22.5;
+  				degrees += 22.5;
 
-  				if (degree < 0) 
-    				degree = 360 - Math.abs(degree) % 360;
+  				if (degrees < 0) 
+    				degrees = 360 - Math.abs(degrees) % 360;
   				else 
-    				degree = degree % 360;
+    				degrees = degrees % 360;
   
-  				var which = parseInt(degree / 45);
-  				return compassPoints[which];
+  				var indexPos = parseInt(degrees / 45);
+  				return compassPoints[indexPos];
 			};
-			$(".wind").html("Wind: " + windDirection(json.wind.deg) + ", " + json.wind.speed + "m/s");
+			$(".wind").html("Wind:" + "<br>" + windDirection(json.wind.deg) + "<br>" + Math.round(json.wind.speed) + " m/s");
 
 			//umbrella
 			//get forecast
